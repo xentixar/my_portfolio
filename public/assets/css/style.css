@@ -1,0 +1,65 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+th{
+    width: 300px;
+}
+
+.table.table-bordered{
+    border: 0px solid black !important;
+}
+
+.cnt .sidebar {
+    position: fixed;
+    width: 270px;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #141830;
+}
+
+.cnt .sidebar .sidebar-header {
+    padding: 1rem;
+}
+
+.cnt .sidebar .sidebar-header img {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.cnt .sidebar .sidebar-body .sidebar-link {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 1rem;
+}
+
+.cnt .sidebar .sidebar-body .sidebar-link:hover {
+    background-color: #4545452a;
+}
+
+.cnt .sidebar .sidebar-body .sidebar-link.active {
+    background-color: #4545452a;
+}
+
+.cnt .content-wrapper {
+    margin-left: 270px;
+}
+
+.cnt .content-wrapper .navbar {
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+.cnt .content-wrapper .content {
+    padding: 1rem;
+    min-height: 100vh;
+    background-color: #110e0e;
+}
